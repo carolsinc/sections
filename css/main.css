@@ -8,6 +8,9 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+body {
+  margin:1.5rem;
+}
 
 section {
   margin: 1.5rem;
@@ -26,6 +29,7 @@ div {
   display: inline-block;
   padding: .4em .75em .5em;
   max-width: 25em;
+  vertical-align: middle;
 }
 
 h2 {
@@ -36,24 +40,20 @@ h2 {
   line-height: 1.5;
 }
 
-p {
-  color: #333;
-}
-
 .text {
-  padding:1em;
+  padding: 1em;
   margin: 1.5rem;
   text-align: left;
 }
 
 nav a {
   display: inline-block;
-  padding: 1em;
+  padding: .5em;
   text-decoration: none;
   text-align: center;
   border: 3px solid #000;
   border-radius: 8px;
-  color: #666;
+  color: #333;
   background-color: #eee9de;
 }
 
