@@ -14,9 +14,10 @@ body {
 }
 
 section {
+  margin: 1.5rem 0;
   text-align: center;
   display: block;
-  padding: 2em;
+  padding: .5em 0;
 }
 
 img {
@@ -27,7 +28,7 @@ img {
 div {
   position: relative;
   display: inline-block;
-  padding: .4em .75em .5em;
+  padding: 1em;
   max-width: 25em;
   min-width: 300px;
   vertical-align: middle;
@@ -41,15 +42,17 @@ h2 {
   line-height: 1.5;
 }
 
+p {
+  padding: .5em 0;
+}
+
 .text {
-  padding: 1em;
-  margin: 1.5rem;
   text-align: left;
 }
 
 .btn {
   display: inline-block;
-  padding: .5em;
+  padding: .5em 1em;
   text-decoration: none;
   text-align: center;
   border: 3px solid #000;
