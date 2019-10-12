@@ -2,25 +2,26 @@ html {
   box-sizing: border-box;
   background-color: #eee9de;
   line-height: 1.5;
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-section{
+section {
   margin: 1.5rem;
   text-align: center;
   display: block;
   padding: 2em;
 }
 
-img{
+img {
   display: block;
   width: 100%;
 }
 
-div{
+div {
   position: relative;
   display: inline-block;
   padding: .4em .75em .5em;
