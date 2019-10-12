@@ -28,12 +28,16 @@ div {
   max-width: 25em;
 }
 
-h1 {
+h2 {
   margin: 0;
   display: block;
   text-align: left;
   font-weight: bold;
   line-height: 1.5;
+}
+
+p {
+  color: #333;
 }
 
 .text {
