@@ -14,10 +14,9 @@ body {
 }
 
 section {
-  margin: 1.5rem 0;
   text-align: center;
   display: block;
-  padding: .5em 0;
+  padding: 2em 0;
 }
 
 img {
@@ -26,24 +25,19 @@ img {
 }
 
 div {
-  position: relative;
   display: inline-block;
   padding: 1em;
   max-width: 25em;
-  min-width: 300px;
   vertical-align: middle;
 }
 
 h2 {
-  margin: 0;
-  display: block;
-  text-align: left;
+  margin: 0 0 1.5rem 0;
   font-weight: bold;
-  line-height: 1.5;
 }
 
 p {
-  padding: .5em 0;
+  margin: 0 0 1.5rem 0;
 }
 
 .text {
